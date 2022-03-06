@@ -7,8 +7,13 @@ Terdapat 6 kelas yaitu vehicle, airplane, ship, person, job, dan driver. Pada ga
 
 ![gambar_penjelasan](https://github.com/raihantaufiq/LATIHAN4DPBO2022/blob/main/Hubungan%20antar%20kelas.png?raw=true)
 
-- a
-- a
+- Kelas person memiliki hubungan composition dengan kelas job, pekerjaan merupakan atribut dari orang karena orang memiliki pekerjaan (person has a job)
+- Kelas driver merupakan turunan kelas person, atribut dan method dari kelas person diturunkan pada kelas driver karena pengemudi merupakan orang, lalu kelas person memiliki kelas job sebagai atributnya sehingga pengemudi adalah orang yang memiliki pekerjaan (driver is a person and has a job)
+- Kelas vehicle memiliki hubungan composition dengan kelas driver, hal ini karena pada kendaraan terdapat orang yang mengemudikannya (vehicle has a driver)
+- Kelas airplane merupakan turunan kelas vehicle karena pesawat terbang merupakan salah satu jenis kendaraan (airplane is a vehicle)
+- Kelas ship merupakan turunan kelas vehicle karena kapal merupakan salah satu jenis kendaraan (ship is a vehicle)
+- Pada kelas vehicle terdapat method Move(), pada kelas anaknya yaitu airplane dan ship dibuat lagi fungsi Move() dengan isi yang berbeda, hal ini karena pesawat dan kapal memiliki cara bergerak yang berbeda. Jadi jika Move() dipanggil dari kelas vehicle maka akan menampilkan: vehicle is moving, jika dipanggil dari kelas airplane akan menampilkan: airplane is flying, pada kelas ship: ship is sailing
+- Pada kelas person terdapat method sleeping(), pada kelas anaknya yaitu kelas driver tidak dibuat method tersebut lagi sehingga jika method sleep() dipanggil dari kelas person maupun driver akan tetap menampilkan: "nama orang" is sleeping.
 
 
 ### Screenshot
