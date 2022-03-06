@@ -4,6 +4,7 @@ Saya Raihan Taufiqurrahman mengerjakan evaluasi Latihan Praktikum dalam mata kul
 
 ### Penjelasan
 
+![penjelasan](https://github.com/raihantaufiq/LATIHAN4DPBO2022/blob/main/Hubungan%20antar%20kelas.png?raw=true)
 
 ### Screenshot
 ![1](https://github.com/raihantaufiq/LATIHAN4DPBO2022/blob/main/Screenshot%20(1).png?raw=true)
