@@ -13,7 +13,7 @@ Terdapat 6 kelas yaitu vehicle, airplane, ship, person, job, dan driver. Pada ga
 - Kelas airplane merupakan turunan kelas vehicle karena pesawat terbang merupakan salah satu jenis kendaraan (airplane is a vehicle). Kelas vehicle juga memiliki kelas driver sebagai salah satu atributnya (airplane is a vehicle and has a driver)
 - Kelas ship merupakan turunan kelas vehicle karena kapal merupakan salah satu jenis kendaraan (ship is a vehicle).Kelas vehicle juga memiliki kelas driver sebagai salah satu atributnya (ship is a vehicle and has a driver)
 - Pada kelas vehicle terdapat method Move(), pada kelas anaknya yaitu airplane dan ship dibuat lagi fungsi Move() dengan isi yang berbeda, hal ini karena pesawat dan kapal memiliki cara bergerak yang berbeda. Jadi jika Move() dipanggil dari kelas vehicle maka akan menampilkan: vehicle is moving, jika dipanggil dari kelas airplane akan menampilkan: airplane is flying, pada kelas ship: ship is sailing
-- Pada kelas person terdapat method sleeping(), pada kelas anaknya yaitu kelas driver tidak dibuat method tersebut lagi sehingga jika method sleep() dipanggil dari kelas person maupun driver akan tetap menampilkan: "nama orang" is sleeping.
+- Pada kelas person terdapat method sleep(), pada kelas anaknya yaitu kelas driver tidak dibuat method tersebut lagi sehingga jika method sleep() dipanggil dari kelas person maupun driver akan tetap menampilkan: "nama orang" is sleeping.
 
 
 ### Screenshot
